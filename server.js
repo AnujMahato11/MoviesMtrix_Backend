@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://moviesmatrix-backend.onrender.com"
+  "https://movies-matrix-frontend-gold.vercel.app"
 ];
 
 app.use(
